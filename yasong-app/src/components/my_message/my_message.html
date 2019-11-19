@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Document</title>
+    <style>
+        @import "./my_message.css";
+        @import "../../public_css/bus.css";
+    </style>
+</head>
+<body>
+    <!--主页的banner组件-->
+    <div class="banner">
+        <div class="return"><span class="iconfont">&#xe608;</span>返回</div>
+        <div class="title">我的信息</div>
+    </div>
+
+    <!-- 我的信息组件 -->
+    <div class="mm_myMessageBox">
+
+        <!-- 头像及信息组件 -->
+        <div class="mm_profileMessage">
+
+            <!--插入头像插入两个div。-->
+            <div class="mm_avanta_frame">
+                <div class="mm_avanta"></div>
+            </div>
+            
+            <div class="mm_nickName">吾好梦中作诗</div>
+            <div class="mm_level">Lv100</div>
+            <div class="mm_fansNum">粉丝:<div class="mm_fansNumber">198</div></div>
+            <div class="mm_achievement">翰林学士</div>
+        </div>
+
+        <div class="mm_sexBox">性别：<div class="mm_sex">公子</div></div>
+        <!-- 成就墙 -->
+        <div class="mm_aw">成就墙：</div>
+        <div class="mm_achievement_wall">
+            <div class="mm_achievement">翰林学士</div>
+            <div class="mm_achievement">诗仙</div>
+            <div class="mm_achievement">飞花令者</div>
+        </div>
+
+        <!-- 个性签名 -->
+        <div class="mm_personality_signature">
+            <div class="mm_word">个性签名:</div>
+            <div class="mm_bigText">
+                <label>
+                    <textarea class="mm_signature" rows="3" cols="20">天生我材必有用。</textarea>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- button组件 -->
+    <div class="mm_button"><span>编辑资料</span></div>
+</body>
+</html>

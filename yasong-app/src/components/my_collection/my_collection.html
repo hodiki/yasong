@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Document</title>
+    <style>
+            @import "./my_collection.css";
+            @import "../../public_css/bus.css";
+    </style>
+</head>
+<body>
+    <!--主页的banner组件-->
+    <div class="banner">
+        <div class="return"><span class="iconfont">&#xe608;</span>返回</div>
+        <div class="title">我的收藏</div>
+    </div>
+
+    <!-- 分类选择组件 -->
+    <div class="mcol_changeButtonBox">
+        <button type="button" class="mcol_changeButton">用户</button>
+        <button type="button" class="mcol_changeButton">古诗</button>
+    </div>
+
+    <!-- 简介排列框组件 -->
+    <div class="mcol_synopsisBox">
+
+        <!-- 简介组件（举例） -->
+        <div class="mcol_poetrySynops">
+            <div class="mcol_poetryName">静夜思</div>
+            <div class="mcol_author">李白</div>
+            <div class="mcol_delete">x</div>
+        </div>
+        <div class="mcol_poetrySynops">
+            <div class="mcol_poetryName">九月九日忆山东兄弟</div>
+            <div class="mcol_author">王维</div>
+            <div class="mcol_delete">x</div>
+        </div>
+    </div>
+
+    <!--主页的bottom组件-->
+    <div class="bottom">
+        <div class="icon">
+            <span class="iconfont">&#xe625;</span><br>
+            <span class="icon_text">文库</span>
+        </div>
+        <div class="icon">
+            <span class="iconfont">&#xe627;</span><br>
+            <span class="icon_text">主页</span>
+        </div>
+        <div class="icon">
+            <span class="iconfont">&#xe617;</span><br>
+            <span class="icon_text">互动</span>
+        </div>
+    </div>
+</body>
+</html>

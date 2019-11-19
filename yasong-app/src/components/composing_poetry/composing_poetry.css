@@ -1,0 +1,245 @@
+/*背景板的底色*/
+body{
+    background:#F2F2F2;
+}
+
+/*---------------------------------------------------------------------*/
+/*页面上方*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+.return{
+    /*调整返回键的位置*/
+        position: relative;
+        width: 200px;
+        height: 110px;
+        right: 120px;
+
+    /*字体设定*/
+        font-size: 58px;
+        font-family: "等线 Light",serif;
+        text-align: center;
+        line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+.return span{
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+
+.title
+{
+    /*调整字体的位置*/
+        position: relative;
+        width: 280px;
+        height: 110px;
+        right: 220px;
+
+        /*观察DIV块分布取消注释*/
+        /*background: #B22222;*/
+
+    /*title字体设定*/
+        /*保持字体在正中间*/
+        line-height: 110px;
+        text-align: center;
+
+        /*设定字体样式*/
+        font-size: 62px;
+        font-family: 等线 Light, serif;
+}
+/*---------------------------------------------------------------------*/
+
+
+/*填充内部div*/
+
+
+/*---------------------------------------------------------------------*/
+/*底部窗口组件*/
+.bottom{
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items:center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height:180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+
+
+}
+
+
+/*底部图标*/
+.icon{
+
+    /*底部*/
+    height:140px;
+    width: 140px;
+
+    /*透明背景*/
+    background: transparent;
+
+    /*字体居中*/
+    text-align: center;
+
+}
+
+/*底部图标的文字字体*/
+.icon_text{
+    font-family: 晨曦, serif;
+    font-size:40px;
+}
+
+/* verse */
+.composingPoetryBox{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.composingPoem-fameBox{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    border-bottom: 2px white solid;
+    margin-bottom: 3%;
+}
+.composingPoem-fameBox:hover{
+    border-bottom: 2px gray solid;
+}
+.composingPoem-fameBox .composingPoem_fame{
+    background:none;  
+	outline:none;  
+    border:0px;
+    width: 100%;
+    font-size: 50px;
+    color: black;
+    text-align: center;    
+    /* font-family: 日文毛笔行书, serif; */
+}
+.composingPoetryBody{
+    width: 90%;
+    height: 90%;
+    display: inline-block;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    line-height: 90%;
+    text-align: 90%;
+    background:none;  
+	outline:none;  
+    border:0px;
+    font-size: 40px;
+    line-height: 60px;
+    /* font-family: 晨曦, serif; */
+}
+.composingPoetryBox .composingPoetryBodyBox{
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    display: inline-block;
+    position: relative;
+    display: flex;
+}
+.composingPoetryBox .composingPoetryBodyBox:hover{
+    border: 1px gray solid;
+}
+/* verse */
+
+/* button */
+.composing_poetry_button
+{
+    height: 370px;
+    width: 650px;
+    background: url("../../image/button.png") no-repeat center;
+    background-size: 650px 550px;
+    position: relative;
+    left: 0%;
+
+}
+
+.composing_poetry_button span{
+    display: block;
+    left: -10%;
+    top: 135px;
+    position: relative;
+    font-size: 76px;
+    /* vertical-align:middle; */
+    color: white;
+    text-align: center;
+    font-family: 日文毛笔行书, serif;
+    font-weight: 600;
+}
+.composing_poetry_button span:hover{
+    color: grey;
+}
+/* button */
+
+.real_buttom{
+    height: 300px;
+    line-height: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: 230px;
+    width: 9%;
+    font-size: 60px;
+    top: 1160px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    float: right;
+    background-color: white;
+    border-radius: 6%;
+    color: #B22222;
+    border: 1px solid #F2F2F2;
+    /* transform: rotate(180deg); */
+}
+
+.background_buttom{
+    height: 300px;
+    line-height: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: 230px;
+    width: 9%;
+    font-size: 60px;
+    top: 1160px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    float: left;
+    background-color: white;
+    border-radius: 6%;
+    color: #B22222;
+    border: 1px solid #F2F2F2;
+}

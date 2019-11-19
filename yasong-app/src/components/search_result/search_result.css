@@ -1,0 +1,250 @@
+
+
+body{
+
+    background:#F2F2F2;
+
+}
+
+
+/*页面上方*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+/*头像的外框*/
+.avanta_frame{
+    background: white;
+    border: 2px solid brown;
+    height: 98px;
+    width: 98px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*头像的内框*/
+.avanta{
+
+    /*头像内框*/
+    /* background: url("../../image/profile_photo/default_female.png")no-repeat,center; */
+    background-size: 98px 98px;
+    height:98px;
+    width:98px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+}
+
+/*搜索外框*/
+.search_text{
+
+    height:78px;
+    width:450px;
+    position: relative;
+}
+
+/*搜索框内部*/
+.search_text input[type=text]{
+
+    height: 78px;
+    width: 470px;
+    border: 1px  solid #B22222;
+    border-radius: 33px 33px 33px 33px;
+    /*搜索框内的字体颜色*/
+    font-size:32px;
+    font-family: 晨曦, serif;
+    font-weight: 500;
+
+}
+
+/*放大镜图标*/
+.search_text .iconfont
+{
+    background: white;
+    font-size: 38px;
+    position: relative;
+
+    left: 410px;
+    top: -60px;
+    color: #333333;
+}
+
+/*创建文本的外框*/
+.create_icon{
+
+    height:108px;
+    width:108px;
+    display: block;
+    background: white;
+    text-align: center;
+
+    position: relative;
+    color:#B22222;
+
+}
+/*创建按钮的字体图案*/
+.create_icon .iconfont{
+    font-size: 108px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+}
+
+
+
+/*底部窗口组件*/
+.bottom{
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items:center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height:180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+    z-index: 3;
+
+}
+
+.mark {
+
+    position: relative;
+    height:80px;
+    width: 160px;
+    left:580px;
+    top:-130px;
+}
+
+.mark span{
+    font-size: 50px;
+    color: #B22222;
+}
+
+
+/*底部图标*/
+.icon{
+
+    /*底部*/
+    height:140px;
+    width: 140px;
+
+    /*透明背景*/
+    background: transparent;
+
+    /*字体居中*/
+    text-align: center;
+
+}
+
+/*底部图标的文字字体*/
+.icon_text{
+    font-family: 晨曦, serif;
+    font-size:40px;
+}
+
+/* 分类选择 */
+.search_result_changeButtonBox {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 11%;
+    text-align: center;
+    border-bottom: orange 10px solid;
+}
+
+.search_result_changeButton {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #ff6700 ;   */
+    border: 0;
+    position: relative;
+    width: 200px;
+    height: 80px;
+    font-size: 45px;
+    margin-left: 10px;
+    background-color: orange;
+    color: #F2F2F2;
+}
+
+.search_result_changeButton:hover {
+    background-color: #B22222;
+}
+.search_result_changeButtonBox:hover{
+    border-bottom: #B22222 10px solid;
+}
+
+/* 分类选择 */
+
+/* 简介排列框组件 */
+.search_result_synopsisBox {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 20%;
+}
+/* 简介排列框组件 */
+
+/* 诗简介组件 */
+.poetrySynops{
+    width: 900px;
+    height: 200px;
+    background-color: #FCFCFC;
+    margin-bottom: 50px;
+}
+/* 诗简介组件 */
+
+/* 诗简介内容 */
+.poetrySynops .poetryName{    
+    display: inline-block;
+    position: absolute;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 晨曦, serif;
+}
+.poetrySynops .author{
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    right: 80px;
+    margin-top: 110px;
+    font-family: 晨曦, serif;
+}
+.poetrySynops:hover{
+    background-color: #d4d4d4;
+}
+/* 诗简介内容 */
+
+.search_result_word{
+    display: inline-block;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    font-size: 30px;
+    color: gray;
+}

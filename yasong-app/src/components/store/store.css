@@ -1,0 +1,288 @@
+
+
+/*背景板的底色*/
+body{
+    background:#F2F2F2;
+}
+
+/*---------------------------------------------------------------------*/
+/*页面上方*/
+.store_banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+.store_return{
+    /*调整返回键的位置*/
+        position: relative;
+        width: 200px;
+        height: 110px;
+        right: 120px;
+
+    /*字体设定*/
+        font-size: 58px;
+        font-family: "等线 Light",serif;
+        text-align: center;
+        line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+.store_return span{
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+
+.store_title
+{
+    /*调整字体的位置*/
+        position: relative;
+        width: 280px;
+        height: 110px;
+        right: 220px;
+
+        /*观察DIV块分布取消注释*/
+        /*background: #B22222;*/
+
+    /*title字体设定*/
+        /*保持字体在正中间*/
+        line-height: 110px;
+        text-align: center;
+
+        /*设定字体样式*/
+        font-size: 62px;
+        font-family: 等线 Light, serif;
+}
+/*---------------------------------------------------------------------*/
+
+
+/*填充内部div*/
+.navigation{
+
+    position: relative;
+    height:70px;
+    width:800px;
+    margin: auto;
+    top:150px;
+
+    /*background: #ee9900;*/
+
+    display: flex;
+    align-items: center;
+}
+
+.navigation .stuff{
+
+    position: relative;
+    height:52px;
+    width:200px;
+    margin-right: 20px;
+
+    background: #bd2c00;
+    font-size: 46px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 2px 2px 2px 2px;
+    color: #f5f2f0;
+}
+
+.store_items_display{
+
+    position: relative;
+    top:200px;
+    width:800px;
+    /*background: #bd2c00;*/
+
+    display:flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    margin: auto auto 300px;
+}
+
+.store_item{
+
+    position: relative;
+    margin-top: 5px;
+    width:395px;
+    height:510px;
+    border: 1px solid #B22222;
+
+    background: #f5f2f0;
+
+}
+
+.store_item .store_pic{
+
+    position: relative;
+    height:395px;
+    width:395px;
+    /* background: transparent; */
+    border-bottom: 1px solid #B22222;
+    /* background: url("../../image/postcard1.png")no-repeat,center; */
+    /* background-size: 395px 395px; */
+}
+
+/* 印章集 */
+.yz_pic1{
+    background: url("../../image/seal/yz1.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+.yz_pic2{
+    background: url("../../image/seal/yz2.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+.yz_pic3{
+    background: url("../../image/seal/yz3.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+.yz_pic4{
+    background: url("../../image/seal/yz4.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+.yz_pic5{
+    background: url("../../image/seal/yz5.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+.yz_pic6{
+    background: url("../../image/seal/yz6.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+.yz_pic7{
+    background: url("../../image/seal/yz7.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+.yz_pic8{
+    background: url("../../image/seal/yz8.png")no-repeat,center;
+    background-size: 395px 395px;
+}
+
+/* 印章集 */
+
+/* .item .pic img{
+    height:395px;
+    width: 395px;
+
+} */
+
+.store_item_Inform{
+    position: relative;
+    width:390px;
+    height:110px;
+    background: transparent;
+
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.store_item_Inform .store_item_Name{
+    position: relative;
+    width:380px;
+    left: 10px;
+    height:46px;
+    /*background: cadetblue;*/
+
+    font-size: 46px;
+    text-align: left;
+    line-height: 46px;
+
+}
+
+.store_item_Inform .store_price{
+    position: relative;
+    width: 200px;
+    height:56px;
+    left: 5px;
+    /*background:#f5f2f0;*/
+
+    font-size: 42px;
+    font-family: 仿宋, serif;
+}
+
+.store_item_Inform .store_price .store_price_value{
+
+    font-size: 54px;
+    font-family: 黑体,serif;
+    color: #bd2c00;
+
+}
+
+.store_item_Inform .store_purchase{
+    position: relative;
+    top:7px;
+    left: 14px;
+    width: 180px;
+    height:46px;
+    /*background: royalblue;*/
+
+    font-size: 44px;
+    line-height: 46px;
+    text-align: right;
+}
+
+.store_item_Inform .store_purchase .iconfont{
+    font-size: 46px;
+    color: #bd2c00;
+}
+
+/*---------------------------------------------------------------------*/
+/*底部窗口组件*/
+.bottom{
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items:center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height:180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+
+
+}
+
+
+/*底部图标*/
+.icon{
+
+    /*底部*/
+    height:140px;
+    width: 140px;
+
+    /*透明背景*/
+    background: transparent;
+
+    /*字体居中*/
+    text-align: center;
+
+}
+
+/*底部图标的文字字体*/
+.icon_text{
+    font-family: 晨曦, serif;
+    font-size:40px;
+}

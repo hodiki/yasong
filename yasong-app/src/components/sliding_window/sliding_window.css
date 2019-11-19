@@ -1,0 +1,169 @@
+body{
+
+    background:#F2F2F2;
+    user-select: none;
+}
+
+.sw_backg{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    user-select: none;
+}
+
+
+/*---------------------------------------------------------------------*/
+.sliding_door{
+    width: 75%;
+    height:100%;
+    background: whitesmoke;
+    border-right:1px solid crimson;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+/*头像的外框*/
+.sliding_door .avanta_frame{
+    background: white;
+    border: 2px solid brown;
+    height: 168px;
+    width: 168px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    left: 60px;
+    top:20px;
+
+}
+
+/*头像的内框*/
+.sliding_door  .avanta_frame .avanta{
+
+    /*头像内框*/
+    background: url("../../image/profile_photo/default_female.png")no-repeat,center;
+    background-size: 168px 168px;
+    height:168px;
+    width:168px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+}
+
+/*用户名*/
+.sliding_window_username{
+    height:58px;
+    width:400px;
+    /*background: #9a6e3a;*/
+    position: relative;
+    top:-118px;
+    left: 258px;
+    font-size: 58px;
+    line-height: 58px;
+
+    font-family: "等线 Light", serif;
+}
+/*用户的成就*/
+.sliding_achievement{
+    height:38px;
+    width:154px;
+    background: #bd2c00;
+    position: relative;
+    left: 528px;
+    top:-178px;
+
+    text-align: center;
+
+    font-size: 34px;
+    font-family: 仿宋,serif;
+    color: white;
+}
+
+/*显示用户积分*/
+.sliding_window_showPoints{
+    position: relative;
+    height:58px;
+    width: 400px;
+
+    font-size: 38px;
+    line-height: 38px;
+
+
+
+    font-family: "等线 Light", serif;
+
+    left: 260px;
+    bottom: 150px;
+
+}
+
+/*侧拉分界线*/
+.sliding_door_border{
+    position: relative;
+    top: -100px;
+    height: 1px;
+    width: 100%;
+    background: #9a6e3a;
+
+}
+
+.sliding_door_box{
+    position: relative;
+    height:100px;
+    width: 100%;
+    top: -100px;
+    border-bottom:1px solid #B22222;
+
+    font-family: "等线 Light",serif;
+    font-size: 48px;
+    line-height: 160px;
+}
+
+.sliding_door_box span{
+    
+    display: block;
+    position: relative;
+    bottom: 20px;
+    height: 50px;
+    width: 200px;
+    left: 150px;
+
+}
+
+.settings {
+    position: relative;
+
+    top: 580px;
+    left: 40px;
+
+    height:50px;
+    width: 300px;
+
+    font-size: 38px;
+    font-family: 等线, serif;
+    color:gray;
+}
+
+.settings2 {
+    position: relative;
+
+    top: 450px;
+    left: 50px;
+
+    height:70px;
+    width: 170px;
+
+    font-size: 38px;
+    font-family: 等线, serif;
+    color:gray;
+}
+
+/*---------------------------------------------------------------------*/
+

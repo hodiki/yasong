@@ -1,0 +1,241 @@
+/*背景板的底色*/
+body {
+    background: #F2F2F2;
+}
+
+/*页面上方*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+.return{
+    /*调整返回键的位置*/
+        position: relative;
+        width: 200px;
+        height: 110px;
+        right: 120px;
+
+    /*字体设定*/
+        font-size: 58px;
+        font-family: "等线 Light",serif;
+        text-align: center;
+        line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+.return span{
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+
+.title
+{
+    /*调整字体的位置*/
+        position: relative;
+        width: 280px;
+        height: 110px;
+        right: 220px;
+
+        /*观察DIV块分布取消注释*/
+        /*background: #B22222;*/
+
+    /*title字体设定*/
+        /*保持字体在正中间*/
+        line-height: 110px;
+        text-align: center;
+
+        /*设定字体样式*/
+        font-size: 62px;
+        font-family: 等线 Light, serif;
+}
+/*---------------------------------------------------------------------*/
+
+/* button */
+.mm_button
+{
+    height: 370px;
+    width: 650px;
+    background: url("../../image/button.png") no-repeat center;
+    background-size: 650px 550px;
+    position: absolute;
+    display: inline-block;
+    left: 20%;
+    bottom: 5%;
+}
+
+.mm_button span{
+    display: block;
+    left: -10%;
+    top: 130px;
+    position: relative;
+    font-size: 76px;
+    /* vertical-align:middle; */
+    color: white;
+    text-align: center;
+    font-family: 晨曦, serif;
+    font-weight: 500;
+}
+.mm_button span:hover{
+    color: grey;
+}
+/* button */
+
+/* head组件 */
+.my_message_head_box{
+    height: 499px;
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    border-bottom: black 1px solid;
+    text-align: center;
+}
+.my_message_head_top{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    background-color: #B22222;
+}
+.my_message_head_buttom{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 250px;
+}
+
+
+/*头像的外框*/
+.my_message_avanta_frame{
+    /*头像的底色*/
+    background: white;
+    /*头像的外边框描边*/
+    border: 2px solid brown;
+    /*设置头像为圆形*/
+    border-radius: 50% 50% 50% 50%;
+
+    /*这里是为了让头像内框的图片处于正中央的位置。*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*-----------------------------------------------------*/
+    /*头像的大小，大小自调。*/
+    height: 250px;
+    width: 250px;
+
+    /*头像的位置，位置自调。*/
+    position: relative;
+    top: 25%;
+    left: 37%;
+}
+
+/*头像的内框*/
+.my_message_avanta_frame .my_message_avanta{
+
+    /*头像内框*/
+    background: url("../../image/profile_photo/default_female.png")no-repeat,center;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+    /*如果外框的height与width改变了，将下面所有的值都设定为一样的数值。这里全是98px。*/
+    background-size: 100%;
+    height:100%;
+    width:100%;
+
+}
+
+.my_message_head_box .my_message_name{
+    font-size: 45px;
+    position: absolute;
+    width: 100%;
+    top: 75%;
+}
+
+.my_message_achievement{
+    display: inline-block;
+    height:38px;
+    width:154px;
+    background: #bd2c00;
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    line-height: 38px;
+    font-family: 仿宋,serif;
+    color: white;
+    left: 42%;
+    top: 89%;
+}
+.my_message_concern{
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    height: 60px;
+    line-height: 60px;
+    width: 140px;
+    text-align: center;
+    border-radius: 5%;
+    color: white;
+    left: 65%;
+    top: 76%;
+    background-color: #df6700;
+}
+.my_message_concern:active{
+    background-color: #B22222;
+}
+/* head组件 */
+
+
+/* 简介排列框组件 */
+.my_message_synopsisBox {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 631px;
+}
+/* 简介排列框组件 */
+
+.my_message_one{
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    border-bottom: gray solid 0.5px;
+    font-size: 35px;
+    line-height: 80px;
+    color: gray;
+}
+.my_message_bigone{
+    display: inline-block;
+    height: 240px;
+    width: 100%;
+    border-bottom: gray solid 0.5px;
+    font-size: 35px;
+    line-height: 80px;
+    color: gray;
+}
+.my_message_one_body{
+    position: absolute;
+    display: inline-block;
+    color: black;
+}

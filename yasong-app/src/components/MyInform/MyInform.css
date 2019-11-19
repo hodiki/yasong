@@ -1,0 +1,390 @@
+
+
+/*背景板的底色*/
+body{
+    background:#F2F2F2;
+}
+
+/*---------------------------------------------------------------------*/
+/*页面上方*/
+.MyInform_banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+.MyInform_return{
+    /*调整返回键的位置*/
+        position: relative;
+        width: 200px;
+        height: 110px;
+        right: 120px;
+
+    /*字体设定*/
+        font-size: 58px;
+        font-family: "等线 Light",serif;
+        text-align: center;
+        line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+.return span{
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+
+.title
+{
+    /*调整字体的位置*/
+        position: relative;
+        width: 280px;
+        height: 110px;
+        right: 220px;
+
+        /*观察DIV块分布取消注释*/
+        /*background: #B22222;*/
+
+    /*title字体设定*/
+        /*保持字体在正中间*/
+        line-height: 110px;
+        text-align: center;
+
+        /*设定字体样式*/
+        font-size: 62px;
+        font-family: 等线 Light, serif;
+}
+/*---------------------------------------------------------------------*/
+
+
+/*填充内部div*/
+
+.MyInform_container{
+
+    position: relative;
+    /*background: aquamarine;*/
+    width:850px;
+    height:1500px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+
+    top:100px;
+
+}
+
+/*头像的外框*/
+.MyInform_avanta_frame{
+    /*头像的底色*/
+    background: white;
+    /*头像的外边框描边*/
+    border: 2px solid brown;
+    /*设置头像为圆形*/
+    border-radius: 50% 50% 50% 50%;
+
+    /*这里是为了让头像内框的图片处于正中央的位置。*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*-----------------------------------------------------*/
+    /*头像的大小，大小自调。*/
+    height: 200px;
+    width: 200px;
+
+    /*头像的位置，位置自调。*/
+    position: relative;
+
+    left: 10px;
+
+}
+
+/*头像的内框*/
+.MyInform_avanta{
+
+    /*头像内框*/
+    /* background: white no-repeat,center; */
+    position: relative;
+    background: url("../../image/profile_photo/default_male.png")no-repeat,center;
+    border-radius: 50% 50% 50% 50%;
+
+    /*如果外框的height与width改变了，将下面所有的值都设定为一样的数值。这里全是98px。*/
+    background-size: 200px 200px;
+    height:200px;
+    width:200px;
+
+}
+
+.MyInform_avanta img{
+    height:200px;
+    width: 200px;
+}
+
+.MyInform{
+
+    position: relative;
+    margin: auto;
+    height:250px;
+    width:850px;
+    background: #FCFCFC;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 1px 3px 3px 2px grey;
+}
+
+.inform_display{
+
+    position: relative;
+    height:250px;
+    width:600px;
+    background: #FCFCFC;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+
+.MyInform_user_name{
+
+    position: relative;
+    height:60px;
+    width:350px;
+
+    top:40px;
+
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+.MyInform_level{
+    position: relative;
+    height:50px;
+    width:200px;
+
+
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    font-family: 仿宋, serif;
+
+}
+
+.subLine{
+    position: relative;
+    height:1px;
+    width:600px;
+    background: #bd2c00;
+}
+
+.exp{
+    position: relative;
+    height:50px;
+    width: 240px;
+
+
+    font-size: 36px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 仿宋, serif;
+}
+
+.MyInform_achievement{
+    position: relative;
+    height:50px;
+    width: 160px;
+    background: #bd2c00;
+
+    top:50px;
+
+    color: white;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+
+    border-radius: 5px 5px 5px 5px;
+}
+/*---------------------------------------------------------------------*/
+/*我的足迹部分*/
+.myFootPrint{
+
+    position: relative;
+    height:250px;
+    width: 850px;
+    /*background: #B22222;*/
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    bottom: 50px;
+
+}
+
+.MyInform_line{
+    position: relative;
+    top:24px;
+    height:2px;
+    width: 350px;
+    background: dimgray;
+}
+
+.panel_name{
+    position: relative;
+    height:50px;
+    width: 150px;
+    /*background: #63a35c;*/
+
+    font-size: 36px;
+    color: dimgray;
+}
+
+.myFootPrint .MyInform_panel{
+    position: relative;
+    width: 850px;
+    height: 250px;
+    background: #FCFCFC;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 13px 13px 13px 13px;
+    box-shadow: 1px 3px 3px 2px grey;
+
+}
+
+.myFootPrint .track{
+    position: relative;
+    height:55px;
+    width: 800px;
+    margin: auto;
+
+    font-size: 36px;
+    line-height: 65px;
+
+    background: #eeeeee;
+
+}
+
+
+.likenum{
+    font-size: 36px;
+}
+
+.productions{
+    font-size: 36px;
+}
+
+.comments{
+    font-size: 36px;
+}
+/*---------------------------------------------------------------------*/
+/*我的成就部分*/
+.MyAchievement{
+    position: relative;
+    height:450px;
+    width: 850px;
+
+    display: flex;
+    flex-flow: wrap row;
+
+}
+
+.MyAchievement .MyInform_panel{
+
+    position: relative;
+    height:300px;
+    width: 720px;
+    background: #FCFCFC;
+    margin: auto;
+    bottom: 60px;
+    border-radius: 13px 13px 13px 13px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    box-shadow: 1px 3px 3px 2px grey;
+
+}
+
+.MyAchievement .panel .MyInform_achievement{
+    position: relative;
+    height:50px;
+    width: 160px;
+    background: #bd2c00;
+
+    color: white;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+
+    bottom: 20px;
+
+    border-radius: 5px 5px 5px 5px;
+}
+
+/*---------------------------------------------------------------------*/
+/*底部窗口组件*/
+.bottom{
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items:center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height:180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+
+
+}
+
+
+/*底部图标*/
+.icon{
+
+    /*底部*/
+    height:140px;
+    width: 140px;
+
+    /*透明背景*/
+    background: transparent;
+
+    /*字体居中*/
+    text-align: center;
+
+}
+
+/*底部图标的文字字体*/
+.icon_text{
+    font-family: 晨曦, serif;
+    font-size:40px;
+}

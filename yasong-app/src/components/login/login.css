@@ -1,0 +1,84 @@
+
+body{
+    /* background: seashell;
+    background: url("../../image/login_background.png"); */
+    background:#F2F2F2;
+}
+.login_container{
+    position: absolute;
+    top:-80px;
+    left: 320px;
+}
+
+.login_logo {
+    background-size:600px 600px;
+    border-radius: 50% 50% 50% 50%;
+    height: 600px;
+    width: 600px;
+    border-width: 1px;
+    margin: 240px auto 0;
+    background: url("../../image/logo.png") no-repeat center;
+    position: relative;
+}
+
+.login_text{
+    height:78px;
+    width: 700px;
+    border-left-width:0;border-top-width:0;border-right-width:0;border-bottom-color:red;
+    margin: 60px 0 80px;
+    background:transparent;
+    position: relative;
+    font-size: 46px;
+    font-weight: 600;
+    vertical-align:middle;
+    font-family: 晨曦, serif;
+}
+
+.login_welcome span{
+    font-family: 毛笔隶书,serif;
+    font-size: 88px;
+    margin-bottom: 60px;
+    display: block;
+}
+.login_button
+{
+    height: 370px;
+    width: 650px;
+    background: url("../../image/button.png") no-repeat center;
+    background-size: 650px 550px;
+    position: relative;
+    left: 60px;
+
+}
+
+.login_button span{
+    display: block;
+    left: -20px;
+    top: 135px;
+    position: relative;
+    font-size: 76px;
+    /* vertical-align:middle; */
+    color: antiquewhite;
+    text-align: center;
+    font-family: 仿宋, serif;
+    font-weight: 600;
+
+}
+
+.login_forgot span{
+
+    display: block;
+    font-family: 晨曦, serif;
+    position: relative;
+    font-size: 54px;
+    left: 350px;
+    top: 0;
+    font-weight: 500;
+
+}
+
+.Lspan{
+    font-family: 晨曦, serif;
+    font-size: 42px;
+    font-weight: 600;
+}

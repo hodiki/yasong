@@ -1,0 +1,346 @@
+
+
+body{
+
+    background:#F2F2F2;
+
+}
+
+/*页面上方*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+/*头像的外框*/
+.avanta_frame{
+    background: white;
+    border: 2px solid brown;
+    height: 98px;
+    width: 98px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*头像的内框*/
+.avanta{
+
+    /*头像内框*/
+    /* background: url("../../image/profile_photo/default_female.png")no-repeat,center; */
+    background-size: 98px 98px;
+    height:98px;
+    width:98px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+}
+
+/*搜索外框*/
+.search_text{
+
+    height:78px;
+    width:450px;
+    position: relative;
+}
+
+/*搜索框内部*/
+.search_text input[type=text]{
+
+    height: 78px;
+    width: 470px;
+    border: 1px  solid #B22222;
+    border-radius: 33px 33px 33px 33px;
+    /*搜索框内的字体颜色*/
+    font-size:35px;
+    font-family: 晨曦, serif;
+    font-weight: 500;
+
+}
+
+/*放大镜图标*/
+.search_text .iconfont
+{
+    background: white;
+    font-size: 38px;
+    position: relative;
+
+    left: 410px;
+    top: -60px;
+    color: #333333;
+}
+
+/*创建文本的外框*/
+.create_icon{
+
+    height:108px;
+    width:108px;
+    display: block;
+    background: white;
+    text-align: center;
+
+    position: relative;
+    color:#B22222;
+
+}
+/*创建按钮的字体图案*/
+.create_icon .iconfont{
+    font-size: 108px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+}
+/*---------------------------------------------------------------------*/
+
+.home2_poem_list{
+    padding: 0 0 0 0;
+    margin-bottom:380px;
+}
+
+.home2_poem_list li{
+
+    margin-bottom: 20px;
+
+}
+
+/*---------------------------------------------------------------------*/
+/*卡片内容*/
+.home2_user_poem
+{
+    background: white;
+    width: 800px;
+    height:880px;
+    position: relative;
+    top: 180px;
+    left: 100px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+/*卡片内的用户头像*/
+.home2_user_poem .home2_avanta_frame{
+    background: white;
+    border: 2px solid brown;
+    height: 98px;
+    width: 98px;
+    position: relative;
+    left:14px;
+    top:8px;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*卡片内用户的内部头像样式*/
+.home2_avanta{
+
+    /*头像内框*/
+    background: url("../../image/profile_photo/default_female.png")no-repeat,center;
+    background-size: 98px 98px;
+    height:98px;
+    width:98px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+}
+
+
+/*用户名*/
+.home2_username{
+    height:58px;
+    width:400px;
+    /*background: #9a6e3a;*/
+    position: relative;
+    top:-58px;
+    left: 148px;
+    font-size: 58px;
+    line-height: 58px;
+
+    font-family: "等线 Light", serif;
+}
+/*用户的成就*/
+.home2_achievement{
+    height:38px;
+    width:154px;
+    background: #bd2c00;
+    position: relative;
+    left: 568px;
+    top:-108px;
+
+    text-align: center;
+
+    font-size: 34px;
+    font-family: 仿宋,serif;
+    color: white;
+}
+
+/*分割线*/
+.home2_top_border{
+    width: 800px;
+    height: 1px;
+    background: #9a6e3a;
+    position: relative;
+    top:-78px;
+}
+
+/*用户作品的标题*/
+.home2_title{
+
+    /*background: #63a35c;*/
+    width: 48px;
+    height:480px;
+    position: relative;
+    left: 600px;
+    top:-550px;
+    font-size: 48px;
+    font-family: 隶书,serif;
+}
+/*用户的自定义印章*/
+.home2_stamp{
+
+    height: 88px;
+    width: 88px;
+    background: url("../../image/stamp/stamp2.png")center no-repeat;
+    background-size: 88px 88px;
+    position: relative;
+    top: -650px;
+    left: 660px;
+
+}
+
+
+/*文本部分*/
+.home2_poem_text
+{
+    position: relative;
+    left: 50px;
+    top: -50px;
+    width: 500px;
+    height: 500px;
+    /*background: #0086b3;*/
+    line-height:56px; 
+    font-size:48px;
+    font-family: 仿宋,serif;
+}
+
+/*显示创作的时间*/
+.home2_showtime{
+    position: relative;
+    top: -570px;
+    width: 420px;
+    left: 20px;
+    height:40px;
+    /*background: #63a35c;*/
+
+    line-height: 40px;
+    font-size: 38px;
+    color: gray;
+
+    font-family: 仿宋,serif;
+
+}
+.home2_showtime span{
+    display: inline-block;
+    width: 500px;
+}
+
+/*操作面板*/
+.home2_panel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+    top:-530px;
+    border-top:solid 1px brown;
+    width: 800px;
+    height:110px;
+    background:transparent;
+}
+
+/*竖直分割线*/
+.home2_string{
+    position: relative;
+    width: 1px;
+    height: 100px;
+    background: #9a6e3a;
+}
+
+/*卡片下方的面板*/
+.home2_panel .home2_choose{
+
+    /*每个小按钮的尺寸*/
+    width: 250px;
+    height: 100px;
+    background: transparent;
+
+    font-size: 48px;
+    text-align: center;
+    line-height: 100px;
+
+    font-family: 仿宋, serif;
+
+}
+
+.home2_choose span{
+    font-size: 48px;
+    font-family: "等线 Light",serif;
+    line-height: 100px;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------*/
+/*底部窗口组件*/
+.home2_bottom{
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items:center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height:180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+
+
+}
+
+
+
+
+.left_buttom{
+    height: 200px;
+    line-height: 100px;
+    position: fixed;
+    left: 0px;
+    bottom: 230px;
+    width: 9%;
+    font-size: 60px;
+    top: 40%;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    float: left;
+    background-color: white;
+    border-radius: 6%;
+    color: #B22222;
+    border: 1px solid #F2F2F2;
+}

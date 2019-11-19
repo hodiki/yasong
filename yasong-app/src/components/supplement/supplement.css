@@ -1,0 +1,108 @@
+body{background: seashell;
+    /* background: url("../../image/login_background.png"); */
+    background:#F2F2F2;
+}
+
+.register_container{
+    position: absolute;
+    top:160px;
+    left: 150px;
+}
+
+.supplement_text{
+    height:78px;
+    width: 700px;
+    border-left-width:0;border-top-width:0;border-right-width:0;border-bottom-color:red;
+    margin: 60px 0 80px;
+    background:transparent;
+    position: relative;
+    font-size: 46px;
+    font-weight: 600;
+    vertical-align:middle;
+    font-family: 晨曦, serif;
+}
+.checkGender{
+
+    position: relative;
+    justify-content: space-around;
+    left: 100px;
+    display: flex;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 50px;
+
+}
+
+.checkGenderBox{
+
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    width: 150px;
+    height: 100px;
+}
+
+.supplement_bigText{
+
+    height: 500px;
+    width:820px;
+    background: url("../../image/frame.png") no-repeat center;
+    background-size:1050px 700px;
+    position: relative;
+    left: -60px;
+
+}
+
+.supplement_signature{
+    height: 340px;
+    width:600px;
+    position: relative;
+    left: 120px;
+    top: 80px;
+
+    background:transparent;
+    border-left-width:0;border-top-width:0;border-right-width:0;border-bottom-width: 0;
+
+    font-family: 晨曦, serif;
+    font-size: 46px;
+
+}
+.welcome span{
+    font-family: 毛笔隶书,serif;
+    font-size: 58px;
+    margin-bottom: 60px;
+    display: block;
+}
+.supplement_button
+{
+    height: 370px;
+    width: 650px;
+    background: url("../../image/button.png") no-repeat center;
+    background-size: 650px 550px;
+    position: relative;
+    left: 40px;
+    top:-80px;
+}
+
+.supplement_button span{
+    display: block;
+    left: -20px;
+    top: 135px;
+    position: relative;
+    font-size: 76px;
+    /* vertical-align: middle; */
+    color: antiquewhite;
+    text-align: center;
+    font-family: 日文毛笔行书, serif;
+    font-weight: 600;
+}
+
+.supplement_h1{
+    font-family: 晨曦, serif;
+    font-size: 42px;
+    font-weight: 600;
+}
+.supplement_input{
+    width: 28px;
+    height: 28px;
+}

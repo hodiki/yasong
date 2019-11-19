@@ -1,0 +1,579 @@
+
+
+/*背景板的底色*/
+body{
+    background:#F2F2F2;
+}
+
+/*---------------------------------------------------------------------*/
+/*页面上方*/
+.User_works_banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+.return{
+    /*调整返回键的位置*/
+        position: relative;
+        width: 200px;
+        height: 110px;
+        right: 120px;
+
+    /*字体设定*/
+        font-size: 58px;
+        font-family: "等线 Light",serif;
+        text-align: center;
+        line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+.return span{
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+
+.top_title
+{
+    /*调整字体的位置*/
+        position: relative;
+        width: 280px;
+        height: 110px;
+        right: 220px;
+
+        /*观察DIV块分布取消注释*/
+        /*background: #B22222;*/
+
+    /*title字体设定*/
+        /*保持字体在正中间*/
+        line-height: 110px;
+        text-align: center;
+
+        /*设定字体样式*/
+        font-size: 62px;
+        font-family: 等线 Light, serif;
+}
+/*---------------------------------------------------------------------*/
+
+
+
+body{
+
+    background:#F2F2F2;
+
+}
+
+/*页面上方*/
+.User_works_banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+/*头像的外框*/
+.User_works_avanta_frame{
+    background: white;
+    border: 2px solid brown;
+    height: 98px;
+    width: 98px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*头像的内框*/
+.User_works_avanta{
+
+    /*头像内框*/
+    background: url("../../image/profile_photo/default_female.png")no-repeat,center;
+    background-size: 98px 98px;
+    height:98px;
+    width:98px;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+}
+
+/*搜索外框*/
+.search_text{
+
+    height:78px;
+    width:450px;
+    position: relative;
+}
+
+/*搜索框内部*/
+.search_text input[type=text]{
+
+    height: 78px;
+    width: 470px;
+    border: 1px  solid #B22222;
+    border-radius: 33px 33px 33px 33px;
+    /*搜索框内的字体颜色*/
+    font-size:32px;
+    font-family: 晨曦, serif;
+    font-weight: 500;
+
+}
+
+/*放大镜图标*/
+.search_text .iconfont
+{
+    background: white;
+    font-size: 38px;
+    position: relative;
+
+    left: 410px;
+    top: -60px;
+    color: #333333;
+}
+
+/*创建文本的外框*/
+.create_icon{
+
+    height:108px;
+    width:108px;
+    display: block;
+    background: white;
+    text-align: center;
+
+    position: relative;
+    color:#B22222;
+
+}
+/*创建按钮的字体图案*/
+.create_icon .iconfont{
+    font-size: 108px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+}
+/*---------------------------------------------------------------------*/
+
+/*填充内部div*/
+
+
+/*---------------------------------------------------------------------*/
+/*底部窗口组件*/
+.bottom{
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items:center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height:180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+
+
+}
+
+
+/*底部图标*/
+.icon{
+
+    /*底部*/
+    height:140px;
+    width: 140px;
+
+    /*透明背景*/
+    background: transparent;
+
+    /*字体居中*/
+    text-align: center;
+
+}
+
+/*底部图标的文字字体*/
+.icon_text{
+    font-family: 晨曦, serif;
+    font-size:40px;
+}
+
+.poem_list{
+    padding: 0 0 0 0;
+    margin-bottom:380px;
+}
+
+.poem_list li{
+
+    margin-bottom: 20px;
+
+}
+
+/*---------------------------------------------------------------------*/
+/*卡片内容*/
+.user_poem
+{
+    background: white;
+    width: 800px;
+    height:900px;
+    position: relative;
+    top: 180px;
+    left: 80px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+/*卡片内的用户头像*/
+.user_poem .User_works_avanta_frame{
+    background: white;
+    border: 2px solid brown;
+    height: 98px;
+    width: 98px;
+    position: relative;
+    left:14px;
+    top:8px;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*用户名*/
+.username{
+    height:58px;
+    width:400px;
+    /*background: #9a6e3a;*/
+    position: relative;
+    top:-58px;
+    left: 148px;
+    font-size: 58px;
+    line-height: 58px;
+
+    font-family: "等线 Light", serif;
+}
+/*用户的成就*/
+.achievement{
+    height:40px;
+    width:154px;
+    background: #bd2c00;
+    position: relative;
+    left: 568px;
+    top:-108px;
+    line-height: 40px;
+
+    text-align: center;
+
+    font-size: 34px;
+    font-family: 仿宋,serif;
+    color: white;
+}
+
+/*分割线*/
+.User_works_top_border{
+    width: 800px;
+    height: 1px;
+    background: #9a6e3a;
+    position: relative;
+    top:-78px;
+}
+
+/*用户作品的标题*/
+.User_works_title{
+
+    /*background: #63a35c;*/
+    width: 48px;
+    height:480px;
+    position: relative;
+    left: 600px;
+    top:-550px;
+    font-size: 48px;
+    font-family: 隶书,serif;
+}
+/*用户的自定义印章*/
+.User_works_stamp{
+
+    height: 88px;
+    width: 88px;
+    background: url("../../image/stamp/stamp2.png")center no-repeat;
+    background-size: 88px 88px;
+    position: relative;
+    top: -650px;
+    left: 660px;
+
+}
+
+
+/*文本部分*/
+.poem_text
+{
+    position: relative;
+    left: 50px;
+    top: -50px;
+    width: 500px;
+    height: 500px;
+    /*background: #0086b3;*/
+
+    font-size:48px;
+    font-family: 仿宋,serif;
+}
+
+/*显示创作的时间*/
+.User_works_showtime{
+    position: relative;
+    top: -570px;
+    width: 420px;
+    left: 20px;
+    height:40px;
+    /*background: #63a35c;*/
+
+    line-height: 40px;
+    font-size: 38px;
+    color: gray;
+
+    font-family: 仿宋,serif;
+
+}
+
+/*操作面板*/
+.User_works_panel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+    top:-530px;
+    border-top:solid 1px brown;
+    width: 800px;
+    height:110px;
+    background:transparent;
+}
+
+/*竖直分割线*/
+.User_works_string{
+    position: relative;
+    width: 1px;
+    height: 100px;
+    background: #9a6e3a;
+}
+
+/*卡片下方的面板*/
+.User_works_panel .User_works_choose{
+
+    /*每个小按钮的尺寸*/
+    width: 250px;
+    height: 100px;
+    background: transparent;
+    font-size: 48px;
+    text-align: center;
+    line-height: 100px;
+
+    font-family: 仿宋, serif;
+
+}
+
+.User_works_choose span{
+    font-size: 48px;
+    font-family: "等线 Light",serif;
+    line-height: 100px;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------------*/
+
+/* 简介排列框组件 */
+.User_works_synopsisBox {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 260px;
+    border-top: 1px solid #B22222;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 65%;
+}
+/* 简介排列框组件 */
+
+.plq{
+    font-size: 30px;
+    float: left;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+/* 评论组件 */
+.User_works_poetrySynops{
+    width: 100%;
+    height: 400px;
+    background-color: #FCFCFC;
+    margin-bottom: 50px;
+}
+.Uwc_showtime{
+    position: relative;
+    top: 5px;
+    width: 420px;
+    left: 50px;
+    height:40px;
+    /*background: #63a35c;*/
+
+    line-height: 40px;
+    font-size: 30px;
+    color: gray;
+
+    font-family: 仿宋,serif;
+}
+/* 评论组件 */
+
+/* 评论内容 */
+
+/* 我的头像信息 */
+/*头像的外框*/
+.User_works_avanta_frame{
+    /*头像的底色*/
+    background: white;
+    /*头像的外边框描边*/
+    border: 2px solid brown;
+    /*设置头像为圆形*/
+    border-radius: 50% 50% 50% 50%;
+
+    /*这里是为了让头像内框的图片处于正中央的位置。*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*-----------------------------------------------------*/
+    /*头像的大小，大小自调。*/
+    height: 140px;
+    width: 140px;
+
+    /*头像的位置，位置自调。*/
+    position: relative;
+    top: 3%;
+    left: 3%;
+}
+
+/*头像的内框*/
+.User_works_avanta_frame .User_works_avanta{
+
+    /*头像内框*/
+    /* background: url("../../image/profile_photo/default_female.png")no-repeat,center; */
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+    /*如果外框的height与width改变了，将下面所有的值都设定为一样的数值。这里全是98px。*/
+    background-size: 100%;
+    height:100%;
+    width:100%;
+
+}
+
+
+
+.User_works_nickName{
+    display: inline-block;
+    position: relative;
+    font-size: 35px;
+    top: -120px;
+    left: 220px;
+}
+.User_works_level{
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    left: 250px;
+    top: -120px;
+    background-color: #B22222;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*用户的成就*/
+.User_works_poetrySynops .User_works_achievement{
+    left: 280px;
+    top: -119px;
+}
+.User_works_achievement{
+    display: inline-block;
+    height:38px;
+    width:154px;
+    background: #bd2c00;
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+    font-family: 仿宋,serif;
+    color: white;
+}
+/* 我的头像信息 */
+
+/* 评论主体 */
+.User_works_poetrySynops .comment_text{
+    display: block;
+    position: relative;
+    height: 140px;
+    width: 70%;
+    left: 0px;
+    top: -50px;  
+    margin-left: 220px;
+    font-size: 30px;
+}
+/* 评论主体 */
+
+/* 评论内容 */
+
+/* 评论发表组件 */
+.to_comment{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 180px;
+    font-size: 41px;
+}
+.to_comment input{
+    width: 80%;
+    height: 100%;
+    font-size: 41px;
+    border: #B22222 solid 2px;
+}
+.to_comment_button{
+    display: inline-block;
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    bottom: 0px;
+    background-color: #B22222;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+}
+/* 评论发表组件 */
+

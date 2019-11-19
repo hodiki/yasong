@@ -1,0 +1,424 @@
+/*背景板的底色*/
+body{
+    background:#F2F2F2;
+}
+
+/*---------------------------------------------------------------------*/
+/*页面上方*/
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height:130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items:center;
+    z-index: 3;
+}
+
+.return{
+    /*调整返回键的位置*/
+        position: relative;
+        width: 200px;
+        height: 110px;
+        right: 120px;
+
+    /*字体设定*/
+        font-size: 58px;
+        font-family: "等线 Light",serif;
+        text-align: center;
+        line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+.return span{
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light",serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+
+.title
+{
+    /*调整字体的位置*/
+        position: relative;
+        width: 280px;
+        height: 110px;
+        right: 220px;
+
+        /*观察DIV块分布取消注释*/
+        /*background: #B22222;*/
+
+    /*title字体设定*/
+        /*保持字体在正中间*/
+        line-height: 110px;
+        text-align: center;
+
+        /*设定字体样式*/
+        font-size: 62px;
+        font-family: 等线 Light, serif;
+}
+/*---------------------------------------------------------------------*/
+
+
+/*填充内部div*/
+
+
+/*---------------------------------------------------------------------*/
+/*底部窗口组件*/
+.bottom{
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items:center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height:180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+
+
+}
+
+
+/*底部图标*/
+.icon{
+
+    /*底部*/
+    height:140px;
+    width: 140px;
+
+    /*透明背景*/
+    background: transparent;
+
+    /*字体居中*/
+    text-align: center;
+
+}
+
+/*底部图标的文字字体*/
+.icon_text{
+    font-family: 晨曦, serif;
+    font-size:40px;
+}
+
+/* 类型简介组件 */
+.class_synopsis{
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    left: 10%;
+    top: 10%;
+}
+.class_synopsis .class_name{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    background-color: #B22222;
+    color: white;
+    font-size: 150px;
+    line-height: 300px;
+    text-align: center;
+    font-family: 晨曦, serif;
+}
+.class_synopsis .class_synopsis_body{
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    right: 0%;
+    color: black;
+    font-size: 40px;
+    font-family: 晨曦, serif;
+    font-weight: 1000;
+}
+/* 类型简介组件 */
+
+/* 简介排列框组件 */
+.synopsisBox {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 30%;
+}
+/* 简介排列框组件 */
+
+/* 诗简介组件 */
+.poetrySynops{
+    width: 900px;
+    height: 200px;
+    background-color: #FCFCFC;
+    margin-bottom: 50px;
+}
+/* 诗简介组件 */
+
+/* 诗简介内容 */
+.poetrySynops .poetryName{    
+    display: inline-block;
+    position: absolute;
+    font-size: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 晨曦, serif;
+}
+.poetrySynops .author{
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    right: 80px;
+    margin-top: 110px;
+    font-family: 晨曦, serif;
+}
+.poetrySynops:hover{
+    background-color: #d4d4d4;
+}
+.poetrySynops .delete{
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    width: 50px;
+    right: 65px;
+    text-align: center;
+}
+
+/* 诗简介内容 */
+
+/* 简介排列框组件 */
+.flying_order_synopsisBox {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 260px;
+    border-top: 1px solid #B22222;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 50%;
+}
+/* 简介排列框组件 */
+
+.plq{
+    font-size: 30px;
+    float: left;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+/* 评论组件 */
+.flying_order_poetrySynops{
+    width: 100%;
+    height: 330px;
+    background-color: #FCFCFC;
+    margin-bottom: 50px;
+}
+/* 评论组件 */
+
+/* 评论内容 */
+
+/* 我的头像信息 */
+/*头像的外框*/
+.flying_order_avanta_frame{
+    /*头像的底色*/
+    background: white;
+    /*头像的外边框描边*/
+    border: 2px solid brown;
+    /*设置头像为圆形*/
+    border-radius: 50% 50% 50% 50%;
+
+    /*这里是为了让头像内框的图片处于正中央的位置。*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*-----------------------------------------------------*/
+    /*头像的大小，大小自调。*/
+    height: 140px;
+    width: 140px;
+
+    /*头像的位置，位置自调。*/
+    position: relative;
+    top: 3%;
+    left: 3%;
+}
+
+/*头像的内框*/
+.flying_order_avanta_frame .flying_order_avanta{
+
+    /*头像内框*/
+    background: url("../../image/profile_photo/default_female.png")no-repeat,center;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+    /*如果外框的height与width改变了，将下面所有的值都设定为一样的数值。这里全是98px。*/
+    background-size: 100%;
+    height:100%;
+    width:100%;
+
+}
+
+
+
+.flying_order_nickName{
+    display: inline-block;
+    position: relative;
+    font-size: 35px;
+    top: -120px;
+    left: 220px;
+}
+.flying_order_level{
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    left: 250px;
+    top: -120px;
+    background-color: #B22222;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*用户的成就*/
+.flying_order_poetrySynops .flying_order_achievement{
+    left: 280px;
+    top: -119px;
+}
+.flying_order_achievement{
+    display: inline-block;
+    height:40px;
+    width:154px;
+    background: #bd2c00;
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+    font-family: 仿宋,serif;
+    color: white;
+    line-height: 40px;
+}
+/* 我的头像信息 */
+
+/* 评论主体 */
+.flying_order_poetrySynops .comment_text{
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 70%;
+    /* left: 210px; */
+    top: -50px;  
+    margin-left: 220px;
+    font-size: 37px;
+}
+/* 评论主体 */
+
+.flying_order_showtime{
+    position: relative;
+    top: -20px;
+    width: 420px;
+    left: 20px;
+    height:40px;
+    /*background: #63a35c;*/
+
+    line-height: 40px;
+    font-size: 30px;
+    color: gray;
+
+    font-family: 仿宋,serif;
+
+}
+
+
+
+/* 评论内容 */
+
+
+/* 飞花令组件 */
+.flying_order_box{
+    display: inline-block;
+    position: absolute;
+    top:130px;
+    width: 100%;
+    height: 600px;
+}
+.flying_order_the{
+    display: inline-block;
+    font-size: 75px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 3%;
+    border: 2px solid #B22222;
+    font-family: 晨曦;
+}
+.flying_order_the2{
+    display: inline-block;
+    position: absolute;
+    font-size: 45px;
+    top: 43%;
+    left: 11%;
+}
+.flying_order_word{
+    display: inline-block;
+    position: absolute;
+    font-size: 250px;
+    left: 60%;
+    top: 5%;
+    color: white;
+    height: 300px;
+    width: 300px;
+    line-height: 280px;
+    text-align: center;
+    background-color: #B22222;
+    font-family: 行书;
+}
+
+/* 飞花令规则介绍组件 */
+.flying_order_rule_box{
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 30%;
+
+}
+
+.flying_order_ruleH{
+    display: inline-block;
+    position: relative;
+    left: -50px;
+    font-size: 40px;
+    font-family: 晨曦;
+    font-weight: 600;
+}
+.flying_order_ruleB{
+    font-size: 30px;
+}
+/* 飞花令规则介绍组件 */
+
+/* 飞花令组件 */

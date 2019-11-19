@@ -1,0 +1,238 @@
+/*背景板的底色*/
+body {
+    background: #F2F2F2;
+}
+
+/*---------------------------------------------------------------------*/
+/*页面上方*/
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background: #FCFCFC;
+    height: 130px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid 2px #B22222;
+    align-items: center;
+    z-index: 3;
+}
+
+.return {
+    /*调整返回键的位置*/
+    position: relative;
+    width: 200px;
+    height: 110px;
+    right: 120px;
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light", serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+.return span {
+
+    /*字体设定*/
+    font-size: 58px;
+    font-family: "等线 Light", serif;
+    text-align: center;
+    line-height: 110px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #0086b3;*/
+}
+
+
+.title {
+    /*调整字体的位置*/
+    position: relative;
+    width: 280px;
+    height: 110px;
+    right: 220px;
+
+    /*观察DIV块分布取消注释*/
+    /*background: #B22222;*/
+
+    /*title字体设定*/
+    /*保持字体在正中间*/
+    line-height: 110px;
+    text-align: center;
+
+    /*设定字体样式*/
+    font-size: 62px;
+    font-family: 等线 Light, serif;
+}
+
+/*---------------------------------------------------------------------*/
+
+
+/*填充内部div*/
+
+
+/*---------------------------------------------------------------------*/
+/*底部窗口组件*/
+.bottom {
+    /*采取flex布局*/
+    display: flex;
+    /*环绕居中，等间距排列*/
+    justify-content: space-around;
+    align-items: center;
+    /*背景颜色*/
+    background: #FCFCFC;
+    /*长宽*/
+    height: 180px;
+    width: 100%;
+    /*定位*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    /*边框线*/
+    border-top: solid 2px #B22222;
+
+
+}
+
+
+/*底部图标*/
+.icon {
+
+    /*底部*/
+    height: 140px;
+    width: 140px;
+
+    /*透明背景*/
+    background: transparent;
+
+    /*字体居中*/
+    text-align: center;
+
+}
+
+/*底部图标的文字字体*/
+.icon_text {
+    font-family: 晨曦, serif;
+    font-size: 40px;
+}
+
+/* 简介排列框组件 */
+.my_fans_synopsisBox {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    top: 10%;
+}
+/* 简介排列框组件 */
+
+/* 诗简介组件 */
+.my_fans_poetrySynops{
+    width: 900px;
+    height: 200px;
+    background-color: #FCFCFC;
+    margin-bottom: 50px;
+}
+/* 诗简介组件 */
+
+/* 我的头像信息 */
+/*头像的外框*/
+.my_fans_avanta_frame{
+    /*头像的底色*/
+    background: white;
+    /*头像的外边框描边*/
+    border: 2px solid brown;
+    /*设置头像为圆形*/
+    border-radius: 50% 50% 50% 50%;
+
+    /*这里是为了让头像内框的图片处于正中央的位置。*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*-----------------------------------------------------*/
+    /*头像的大小，大小自调。*/
+    height: 190px;
+    width: 190px;
+
+    /*头像的位置，位置自调。*/
+    position: relative;
+    top: 0%;
+    left: 3%;
+}
+
+/*头像的内框*/
+.my_fans_avanta_frame .my_fans_avanta{
+
+    /*头像内框*/
+    background: url("../../image/profile_photo/default_female.png")no-repeat,center;
+    position: relative;
+    border-radius: 50% 50% 50% 50%;
+
+    /*如果外框的height与width改变了，将下面所有的值都设定为一样的数值。这里全是98px。*/
+    background-size: 100%;
+    height:100%;
+    width:100%;
+
+}
+
+
+
+.my_fans_nickName{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    font-size: 50px;
+    top: -180px;
+    left: 230px;
+}
+.my_fans_level{
+    display: inline-block;
+    position: relative;
+    width: 85px;
+    font-size: 30px;
+    left: 460px;
+    top: -180px;
+    background-color: #B22222;
+    text-align: center;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.my_fans_fansNum{
+    display: inline-block;
+    position: relative;
+    font-size: 35px;
+    left: -150px;
+    top: -90px;
+}
+.my_fans_fansNumber{
+    display: inline-block;
+    position: absolute;
+    width: 57px;
+}
+
+/*用户的成就*/
+.my_fans_poetrySynops .my_fans_achievement{
+    left: 220px;
+    top: -90px;
+}
+.my_fans_achievement{
+    display: inline-block;
+    height:40px;
+    width:154px;
+    background: #bd2c00;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    font-size: 34px;
+    font-family: 仿宋,serif;
+    color: white;
+}
+/* 我的头像信息 */

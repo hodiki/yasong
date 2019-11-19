@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none ;
+    color: black;
+}
+li{
+    list-style-type :none;
+}
+body{
+    user-select: none;
+    outline:none;
+    -webkit-tap-highlight-color: transparent;  
+    /* 消去蓝色方块 */
+}
+
+/*引入字体部分，可以选择忽略*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icon/1/iconfont.eot');
+    src: url('../icon/1/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../icon/1/iconfont.woff2') format('woff2'),
+    url('../icon/1/iconfont.woff') format('woff'),
+    url('../icon/1/iconfont.ttf') format('truetype'),
+    url('../icon/1/iconfont.svg#iconfont') format('svg');
+
+}
+
+@font-face {
+    font-family: 'iconfont2';
+    src: url('../icon/font_6qbb64y6e7j/iconfont.eot');
+    src: url('../icon/font_6qbb64y6e7j/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../icon/font_6qbb64y6e7j/iconfont.woff2') format('woff2'),
+        url('../icon/font_6qbb64y6e7j/iconfont.woff') format('woff'),
+        url('../icon/font_6qbb64y6e7j/iconfont.ttf') format('truetype'),
+        url('../icon/font_6qbb64y6e7j/iconfont.svg#iconfont') format('svg');
+  }
+
+@font-face {
+    font-family: 晨曦;
+    src: url("../ttf/chenxi.ttf");
+}
+
+@font-face {
+    font-family: 署名;
+    src: url("../ttf/hanyi.ttf");
+}
+
+@font-face {
+    font-family: 隶书;
+    src: url("../ttf/maoli.ttf");
+}
+
+@font-face {
+    font-family: 行书;
+    src: url("../ttf/rimao.ttf");
+}
+
+@font-face {
+    font-family: 毛笔隶书;
+    src: url("../ttf/maoli.ttf");
+}
+
+@font-face {
+    font-family: 日文毛笔行书;
+    src: url("../ttf/rimao.ttf");
+}
+
+/*引入字体图案*/
+.iconfont {
+    font-family: "iconfont", serif !important;
+    font-size: 78px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.iconfont2 {
+    font-family: "iconfont2" !important;
+    font-size: 65px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+/*---------------------------------------------------------------------*/
